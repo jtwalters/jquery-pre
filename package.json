@@ -1,7 +1,7 @@
 {
   "name": "jquery-pre",
   "title": "pre",
-  "description": "prerender/prefetch/dns-prefetch helper",
+  "description": "prerender/prefetch/dns-prefetch plugin for jQuery",
   "author": "Joel Walters",
   "homepage": "https://github.com/jtwalters/pre",
   "version": "1.0.0-alpha",

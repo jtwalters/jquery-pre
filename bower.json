@@ -5,7 +5,7 @@
   "authors": [
     "Joel Walters <jtwalters@gmail.com>"
   ],
-  "description": "prerender/prefetch/dns-prefetch jquery plugin",
+  "description": "prerender/prefetch/dns-prefetch plugin for jQuery",
   "main": "dist/jquery.pre.min.js",
   "keywords": [
     "jquery",
