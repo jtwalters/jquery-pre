@@ -23,9 +23,8 @@
   var throttled_prerender = $.throttle(500, true, prerender);
 
   // method: jQuery.pre
-  // Adds a link tag with type (default prefetch)
+  // Adds a link tag with specified href, type (defaults to prerender)
   // Usage: $.pre("http://www.example.com/path/to/whatever", "prefetch")
-  //    (type defaults to prerender)
   $.pre = function(href, type) {
     type = type || defaults.type;
     if (typeof href == 'undefined') {
