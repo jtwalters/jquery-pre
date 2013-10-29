@@ -1,0 +1,23 @@
+{
+  "name": "jquery-pre",
+  "version": "1.0.0-alpha",
+  "homepage": "https://github.com/jtwalters/pre",
+  "authors": [
+    "Joel Walters <jtwalters@gmail.com>"
+  ],
+  "description": "prerender/prefetch/dns-prefetch jquery plugin",
+  "main": "dist/jquery.pre.min.js",
+  "keywords": [
+    "jquery",
+    "prerender",
+    "prefetch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
