@@ -4,7 +4,7 @@
   "description": "prerender/prefetch/dns-prefetch helper",
   "author": "Joel Walters",
   "homepage": "https://github.com/jtwalters/pre",
-  "version": "0.0.0",
+  "version": "1.0.0-alpha",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.7",
