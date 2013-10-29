@@ -5,7 +5,7 @@ A prerender/prefetch/dns-prefetch plugin for jQuery
 ## Features
 
 * throttles prerender calls to a minimum of once every 500ms
-* provides a simple API to create/update <link rel="..." href="...">
+* provides a simple API to create/update `<link rel="..." href="...">` elements
 
 ## Install
 
