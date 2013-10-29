@@ -1,0 +1,19 @@
+{
+  "name": "pre",
+  "title": "pre",
+  "description": "prerender/prefetch/dns-prefetch helper",
+  "author": "Joel Walters",
+  "homepage": "https://github.com/jtwalters/pre",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.7",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  }
+}

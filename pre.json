@@ -1,0 +1,30 @@
+{
+  "name": "pre",
+  "title": "pre",
+  "description": "prerender/prefect/dns-prefetch helper",
+  "keywords": [
+    "jquery",
+    "plugins",
+    "prerender",
+    "prefetch"
+  ],
+  "version": "1.0.0-alpha",
+  "author": {
+    "name": "Joel Walters",
+    "email": "jtwalters@gmail.com",
+    "url": "https://github.com/jtwalters"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://joelwalters.mit-license.org/"
+    }
+  ],
+  "bugs": "https://github.com/jtwalters/pre/issues",
+  "homepage": "https://github.com/jtwalters/pre",
+  "docs": "https://github.com/jtwalters/pre#readme",
+  "download": "https://github.com/jtwalters/pre/archive/master.zip",
+  "dependencies": {
+    "jquery": ">=1.4"
+  }
+}
