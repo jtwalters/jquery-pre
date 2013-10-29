@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Pre : A prerender/prefetch/dns-prefetch plugin for jQuery" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Pre</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jtwalters/pre">View on GitHub</a>
+
+          <h1 id="project_title">Pre</h1>
+          <h2 id="project_tagline">A prerender/prefetch/dns-prefetch plugin for jQuery</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/jtwalters/pre/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/jtwalters/pre/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="pre" class="anchor" href="#pre"><span class="octicon octicon-link"></span></a>pre</h1>
+
+<p>A prerender/prefetch/dns-prefetch plugin for jQuery</p>
+
+<h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
+
+<ul>
+<li>throttles prerender calls to a minimum of once every 500ms</li>
+<li>provides a simple API to create/update <code>&lt;link rel="..." href="..."&gt;</code> elements</li>
+</ul><h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<ul>
+<li>with bower: <code>bower install jquery-pre</code>
+</li>
+<li>with npm: <code>npm install jquery-pre</code>
+
+<ul>
+<li>includes development related dependencies</li>
+</ul>
+</li>
+</ul><h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<ol>
+<li>include jQuery and Ben Alman's <a href="http://benalman.com/projects/jquery-throttle-debounce-plugin/"><code>jquery.ba-throttle-debounce.min.js</code></a> <em>before</em> this plugin</li>
+<li>include <code>dist/jquery.pre.js</code>
+</li>
+<li>call <code>$.pre</code> or <code>jQuery.pre</code> in a DOM ready function:</li>
+</ol><pre><code>$(function() {
+  // prerender a page (type defaults to prerender)
+  $.pre('http://www.example.com/path/to/whatever');
+
+  // prefetch some assets
+  $.pre('http://www.example.com/path/to/big.jpg', 'prefetch');
+  $.pre('http://www.example.com/path/to/big.css', 'prefetch');
+
+  // dns-prefetch some addresses
+  $.pre('//host_name_to_prefetch.com', 'dns-prefetch');
+});
+</code></pre>
+
+<h2>
+<a name="notes" class="anchor" href="#notes"><span class="octicon octicon-link"></span></a>Notes</h2>
+
+<ul>
+<li>not tested in jQuery &lt; 2.0</li>
+<li>needs testing...please try it out and post any issues you encounter</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Pre maintained by <a href="https://github.com/jtwalters">jtwalters</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
