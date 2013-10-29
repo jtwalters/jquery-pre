@@ -15,8 +15,7 @@ A prerender/prefetch/dns-prefetch jQuery plugin
 
 ```
 $(function() {
-
-  // prerender a page (default type--only need first param)
+  // prerender a page (type defaults to prerender)
   $.pre('http://www.example.com/path/to/whatever');
 
   // prefetch some assets
